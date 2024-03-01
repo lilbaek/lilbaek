@@ -7,6 +7,7 @@ ShowToc: true
 screenshotsFolder: 'secret_doors' 
 animationsFolder: 'secret_doors'  
 animationsDescription: 'Doors with different animations'
+summary: 'The secret doors add-on adds new ways to hide/camouflage the entrances to your hideaways or stash'
 ---
 
 The secret doors add-on adds new ways to hide/camouflage the entrances to your hideaways or stash.

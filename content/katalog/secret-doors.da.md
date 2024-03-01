@@ -7,6 +7,7 @@ ShowToc: true
 screenshotsFolder: 'secret_doors'
 animationsFolder: 'secret_doors'
 animationsDescription: 'Døre med forskellige animationer'
+summary: 'Skjul indgangen til din hemmelige base med disse fremstillelige døre'
 ---
 
 Skjul indgangen til din hemmelige base med disse fremstillelige døre

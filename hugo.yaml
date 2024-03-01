@@ -1,7 +1,7 @@
 baseURL: https://www.lilbaek.com/
 languageCode: en-us
 title: Minecraft Bedrock Add-ons
-paginate: 5
+paginate: 8
 theme: ["PaperMod"]
 
 enableInlineShortcodes: true
@@ -22,7 +22,7 @@ params:
     enabled: false # needs to be explicitly set
   title: X
   description: "Quality Add-ons for Minecraft Bedrock"
-  keywords: [Minecraft, Bedrock, resourcepacks, behaviourpacks]
+  keywords: [Minecraft, Bedrock, resourcepacks, behaviourpacks, add-ons]
   homeInfoParams:
     Title: "Hi there \U0001F44B"
     SubTitle: "What's New?"
@@ -81,16 +81,14 @@ languages:
       languageAltTitle: Dansk
       homeInfoParams:
         Title: "Hej \U0001F44B"
-        SubTitle: "Nyheder"
-        Content: "På udkig efter Minecraft Ressource & adfærdspakker (Add-ons)? Så er du kommet til det rette sted ☄️\n\n
+        SubTitle: "Add-ons"
+        Content: "På udkig efter Minecraft Ressource & adfærdspakker? Så er du kommet til det rette sted ☄️\n\n
         Besøg vores katalog for at finde Add-ons der passer til din spillestil ☁️ \n\n
         Læs mere om Add-ons til Minecraft [her](https://www.minecraft.net/en-us/article/introducing-add-ons)\n\n \n\n
         
-        Det skal du gøre: \n\n
+        Hurtig start: \n\n
         1) Find et Add-on i vores katalog \n\n
         2) Download Add-on \n\n        
         3) [Installer](/da/installation-da/) \n\n
         5) Spil  \n\n
-        
-        Alle vores Add-ons er bygget via 
         "
