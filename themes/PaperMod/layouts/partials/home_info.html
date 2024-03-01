@@ -10,4 +10,5 @@
         {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
     </footer>
 </article>
+<h1 style="padding-bottom: 10px">{{ .SubTitle | markdownify }}</h1>
 {{- end -}}

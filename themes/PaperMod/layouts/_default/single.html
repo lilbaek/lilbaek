@@ -41,7 +41,61 @@
     {{- else }}{{ .Content }}{{ end }}
   </div>
   {{- end }}
+  {{- if .Params.screenshotsFolder }}
+    {{ $folder := .Params.screenshotsFolder | lower | printf "/static/screenshots/%s"}}
+    {{ $screenshotsFolderName := .Params.screenshotsFolder }}
+    {{ if fileExists $folder }}
+      {{ $files := readDir $folder }}
+      <section id="splide" class="splide" aria-label="Screenshots">
+        <div class="splide__track">
+          <ul class="splide__list">
+            {{ range $files }}
+            <li class="splide__slide"><img src="/screenshots/{{$screenshotsFolderName}}/{{.Name}}"/></li>
+            {{ end }}
+          </ul>
+        </div>
+      </section>
+      <script>
+        document.addEventListener( 'DOMContentLoaded', function() {
+          var splide = new Splide( '#splide', {
+            type    : 'loop',
+            perPage : 1,
+            autoplay: true
+          } );
 
+          splide.mount();
+        } );
+      </script>
+    {{ end }}
+  {{ end }}
+  {{- if .Params.animationsFolder }}
+    <h1>{{ .Params.animationsDescription }}</h1>
+    {{ $animationsFolder := .Params.animationsFolder | lower | printf "/static/animations/%s"}}
+    {{ $animationsFolderName := .Params.animationsFolder }}
+    {{ if fileExists $animationsFolder }}
+      {{ $animationFiles := readDir $animationsFolder }}
+      <section id="splide2" class="splide" aria-label="Screenshots">
+        <div class="splide__track">
+          <ul class="splide__list">
+            {{ range $animationFiles }}
+            <li class="splide__slide"><img src="/animations/{{$animationsFolderName}}/{{.Name}}"/></li>
+            {{ end }}
+          </ul>
+        </div>
+      </section>
+      <script>
+        document.addEventListener( 'DOMContentLoaded', function() {
+          var splide = new Splide( '#splide2', {
+            type    : 'loop',
+            perPage : 1,
+            autoplay: false
+          } );
+
+          splide.mount();
+        } );
+      </script>
+    {{ end }}
+  {{ end }}
   <footer class="post-footer">
     {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
     <ul class="post-tags">
