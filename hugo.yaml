@@ -1,4 +1,78 @@
 baseURL: https://www.lilbaek.com/
 languageCode: en-us
-title: Quality resource & behaviour packs for Minecraft Bedrock
+title: Minecraft Bedrock mods
+paginate: 5
 theme: ["PaperMod"]
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["catalog"]
+
+minify:
+  disableXML: true
+  # minifyOutput: true
+
+params:
+  profileMode:
+    enabled: false # needs to be explicitly set
+  title: X
+  description: "Quality resource & behaviour packs for Minecraft Bedrock"
+  keywords: [Minecraft, Bedrock, resourcepacks, behaviourpacks]
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: "Looking for resource & behaviour packs for Minecraft Bedrock? You've come to the right place ☄️"
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    menu:
+      main:
+        - name: Catalog
+          url: catalog
+          weight: 5
+        - name: Installation
+          url: installation
+          weight: 5
+        - name: Blog
+          url: blog
+          weight: 10
+        - name: Contact
+          url: contact
+          weight: 10
+
+  da:
+    languageName: ":da:"
+    weight: 2
+    menu:
+      main:
+        - name: Katalog
+          url: katalog
+          weight: 5
+        - name: Installation
+          url: installation
+          weight: 10
+        - name: Blog
+          url: blog
+          weight: 10
+        - name: Kontakt
+          url: kontakt
+          weight: 10
+
+    # custom params for each language should be under [langcode].parms - hugo v0.120.0
+    params:
+      languageAltTitle: Dansk
+      homeInfoParams:
+        Title: "Hej \U0001F44B"
+        Content: "På udkig efter Minecraft Ressource & adfærdspakker? Så er du kommet til det rette sted ☄️"
