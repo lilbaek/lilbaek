@@ -13,6 +13,6 @@ summary: 'The secret doors add-on adds new ways to hide/camouflage the entrances
 The secret doors add-on adds new ways to hide/camouflage the entrances to your hideaways or stash.
 
 - 6 different secret doors
-- Usable in single player and multiplayer worlds
+- Usable in single player and multiplayer worlds (enable as resourcepack)
 
 [Download here](../../addons/secret_doors.mcaddon)

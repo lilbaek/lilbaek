@@ -13,6 +13,6 @@ summary: 'Skjul indgangen til din hemmelige base med disse fremstillelige døre'
 Skjul indgangen til din hemmelige base med disse fremstillelige døre
 
 - 6 forskellige hemmelige døre
-- Virker i single player og multiplayer verdener
+- Virker i single player og multiplayer verdener (aktiver som resourcepakke)
 
-[Download here](/addons/secret_doors.mcaddon)
+[Download her](/addons/secret_doors.mcaddon)
