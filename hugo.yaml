@@ -18,6 +18,7 @@ minify:
   # minifyOutput: true
 
 params:
+  defaultTheme: dark
   profileMode:
     enabled: false # needs to be explicitly set
   title: X
