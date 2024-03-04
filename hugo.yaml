@@ -56,8 +56,8 @@ languages:
         - name: Installation
           url: installation
           weight: 5
-        - name: Contact
-          url: contact
+        - name: About
+          url: about
           weight: 10
 
   da:
@@ -72,8 +72,8 @@ languages:
         - name: Installation
           url: installation-da
           weight: 10
-        - name: Kontakt
-          url: kontakt
+        - name: Om
+          url: om
           weight: 10
 
     # custom params for each language should be under [langcode].parms - hugo v0.120.0
